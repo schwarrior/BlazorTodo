@@ -27,12 +27,16 @@ A simple task management web app built with Blazor on ASP.NET Core in .NET 10
 
 Project was first created from the the dotnet template with `dotnet new blazor`.
 
-Then the Movie Database App tutorial was built in with instuctions from
+Then the Movie Database App tutorial was built in with instuctions from:
 
 https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro
 
-and then from
+and then from:
 
 https://learn.microsoft.com/en-us/aspnet/core/blazor/tutorials/movie-database-app/part-1?view=aspnetcore-10.0&preserve-view=true&pivots=cli
+
+For reference the full constructed Blazor Movie Database tutorial can be found here:
+
+https://github.com/dotnet/blazor-samples/tree/main/8.0/BlazorWebAppMovies
 
 And finally, the app was adapted into a task manager.
