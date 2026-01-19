@@ -1,6 +1,8 @@
 using BlazorTodo.Components;
-using BlazorTodo.Models;
 using Microsoft.EntityFrameworkCore;
+using BlazorTodo.Models;
+using BlazorTodo.Data;
+
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("BlazorTodoContext") ?? throw new InvalidOperationException("Connection string 'BlazorTodoContext' not found.");
