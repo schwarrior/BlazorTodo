@@ -57,7 +57,7 @@ And finally, the app was adapted into a task manager.
 
 - Does the following razor condition re-evaluate when the movie is loaded async by OnInitiailizedAsync and GetFirstOrDefaultAsync? Or does it wait to evaulate until the awaiting GetFirstOrDefaultAsync method finishes? 
 
-```
+```html,razor
 @if (movie is null)
     {
         <p><em>Loading...</em></p>
