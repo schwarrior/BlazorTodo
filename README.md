@@ -44,6 +44,26 @@ And finally, the app was adapted into a task manager.
 
 # Blazor learning notes
 
+- Override the OnInitializedAsync component event to harvest incoming parameters and setup the component
 - Inject the NavigationManager and use the NavigateTo() method to change location
 - For the EditForm component (and likely other built in components), use the Enhance flag to use SSR to sumbit the form without a full page  refresh
-- Use the [SupplyParameterFromQuery] and [SupplyParameterFromQuery] to harvest values posted to the page
+- Use the [SupplyParameterFromQuery] to harvest values posted to the page
+- Use the [SupplyParameterFromForm] to reference form input values on the current page in the @code portion of the razor page
+- ! is the null forgiving operator. When suffixing a value, allow a nullable value to be used where a not null value is required. Suppress warnings and errors.
+- Use the Blazore QuickGrid component to display data in a table
+
+
+# Blazor learning question
+
+- Does the following razor condition re-evaluate when the movie is loaded async by OnInitiailizedAsync and GetFirstOrDefaultAsync? Or does it wait to evaulate until the awaiting GetFirstOrDefaultAsync method finishes? 
+
+```
+@if (movie is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else {
+        <!-- set up the the table header row -->
+    }
+```
+
