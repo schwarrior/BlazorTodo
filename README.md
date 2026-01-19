@@ -40,3 +40,10 @@ For reference the full constructed Blazor Movie Database tutorial can be found h
 https://github.com/dotnet/blazor-samples/tree/main/8.0/BlazorWebAppMovies
 
 And finally, the app was adapted into a task manager.
+
+
+# Blazor learning notes
+
+- Inject the NavigationManager and use the NavigateTo() method to change location
+- For the EditForm component (and likely other built in components), use the Enhance flag to use SSR to sumbit the form without a full page  refresh
+- Use the [SupplyParameterFromQuery] and [SupplyParameterFromQuery] to harvest values posted to the page
