@@ -51,6 +51,7 @@ And finally, the app was adapted into a task manager.
 - Use the [SupplyParameterFromForm] to reference form input values on the current page in the @code portion of the razor page
 - ! is the null forgiving operator. When suffixing a value, allow a nullable value to be used where a not null value is required. Suppress warnings and errors.
 - Use the Blazore QuickGrid component to display data in a table
+- Continue on Part 4 - Work with a database https://learn.microsoft.com/en-us/aspnet/core/blazor/tutorials/movie-database-app/part-4?view=aspnetcore-10.0&pivots=cli
 
 
 # Blazor learning question
